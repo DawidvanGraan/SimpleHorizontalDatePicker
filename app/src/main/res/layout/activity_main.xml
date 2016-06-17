@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="za.co.dapps.simpledatepicker.MainActivity">
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/datePickerViewPager"
+        android:padding="@dimen/max_margin"
+        android:textSize="@dimen/text_xlarge"
+        android:text="@string/hello_simple_date_picker" />
+
+    <za.co.dapps.simpledatepicker.ui.view.WrapContentHeightViewPager
+        android:id="@+id/datePickerViewPager"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:minHeight="@dimen/max_margin"
+        app:layout_heightPercent="20%"
+        app:layout_widthPercent="100%" />
+
+</android.support.percent.PercentRelativeLayout>

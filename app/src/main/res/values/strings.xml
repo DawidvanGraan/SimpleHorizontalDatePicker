@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SimpleDatePicker</string>
+    <string name="hello_simple_date_picker">Hello Simple Date Picker!</string>
+</resources>
