@@ -1,7 +1,6 @@
 # 
 
-![Screenshot](https://github.com/DawidvanGraan/SimpleHorizontalDatePicker/raw/master/artwork/device-2016-06-17-194022.png
-)
+![Screenshot](https://github.com/DawidvanGraan/SimpleHorizontalDatePicker/raw/master/artwork/device-2016-06-17-193945.gif)
 
 SimpleHorizontalDatePicker
 ===================================
